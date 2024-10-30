@@ -1,0 +1,28 @@
+{
+    "name": "solidie/live-demo-instance",
+    "license": "gpl-v3",
+    "autoload": {
+        "psr-4": {}
+    },
+    "scripts": {
+        "lint": "phpcs --extensions=php -s ./classes",
+        "lint:fix": "phpcbf --extensions=php ./classes"
+    },
+	"require": {
+		"solidie/solidie-lib": "dev-main"
+	},
+    "require-dev": {
+        "10up/phpcs-composer": "dev-master"
+    },
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Solidie/solidie-lib"
+		}
+	],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

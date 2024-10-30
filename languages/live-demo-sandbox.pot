@@ -1,0 +1,859 @@
+# Copyright (C) 2024 Live demo sandbox
+# This file is distributed under the same license as the Live demo sandbox package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Live demo sandbox\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-26 15:59+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: classes/Controllers/InstanceController.php:61
+msgid "WordPress download error"
+msgstr ""
+
+#: classes/Controllers/InstanceController.php:80, classes/Models/Sandbox.php:58
+msgid "Something went wrong!"
+msgstr ""
+
+#: classes/Controllers/SandboxController.php:73
+msgid "Something went wrong! Could not delete sandbox"
+msgstr ""
+
+#: classes/Controllers/SandboxController.php:68
+msgid "Sandbox deleted successfully"
+msgstr ""
+
+#: classes/Models/Instance.php:126
+msgid "The directory is used in another multsite already"
+msgstr ""
+
+#: classes/Models/Instance.php:137
+msgid "The directory exists already."
+msgstr ""
+
+#: classes/Models/Instance.php:149
+msgid "WordPress source file not found! Try again to start over."
+msgstr ""
+
+#: classes/Models/Instance.php:156
+msgid "Invalid database credentials. Could not connect."
+msgstr ""
+
+#: classes/Models/Instance.php:197
+msgid "Prefix variable not found in the config file"
+msgstr ""
+
+#: classes/Models/Sandbox.php:30
+msgid "Invalid Host"
+msgstr ""
+
+#: classes/Models/Sandbox.php:31
+msgid "The targeted sandbox host was not found"
+msgstr ""
+
+#: classes/Models/Sandbox.php:32
+msgid "Please checkout the origin page of live demo link"
+msgstr ""
+
+#: classes/Models/Sandbox.php:45
+msgid "Sandbox Limit Reached"
+msgstr ""
+
+#: classes/Models/Sandbox.php:46
+msgid "We're sorry, but the sandbox limit has been reached."
+msgstr ""
+
+#: classes/Models/Sandbox.php:47
+msgid "Please try again later. Some instances might be deleted in the meantime."
+msgstr ""
+
+#: classes/Models/Sandbox.php:59
+msgid "Could not create sandbox."
+msgstr ""
+
+#: classes/Models/Sandbox.php:60
+msgid "Please try again later."
+msgstr ""
+
+#: classes/Models/Sandbox.php:227
+msgid "Could not delete sandbox"
+msgstr ""
+
+#: classes/Setup/AdminPage.php:55
+msgid "Live Demo Sandbox"
+msgstr ""
+
+#: classes/Setup/AdminPage.php:56
+msgid "Sandbox"
+msgstr ""
+
+#: classes/Setup/AdminPage.php:66, classes/Setup/AdminPage.php:67
+msgid "Multisites"
+msgstr ""
+
+#: classes/Setup/Cron.php:41
+msgid "Every 15 Minutes"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Live Demo Sandbox"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Configure New Multisite"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Multisites"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Multisite Stats"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add New Host"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No multsite was found to create demo under."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Create One"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sandbox is only supported for sites without a port in the URL."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sandbox functionality is currently supported only on Apache servers."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Database Name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Database Username"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Database Password"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Database Host"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Installation Directory Name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Site Title"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Admin Username"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Admin Email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Admin Password"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Plugins to install"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Theme to install"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Network Wide"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Directory name is invalid! Please change it first."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Start Setup?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Once started, keep the tab open until completion."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The directory exists already"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Would you like to override it? It will delete all the sandbox if there is any."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Do not close this screen until the process is complete."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Plugins will be activated according to the order you see"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Cancel"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Run Setup"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Downloading WordPress"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Installing WordPress"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Setting up Network"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Activating network wide themes and plugins"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Something went wrong!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Deploying Network Configs"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sure to delete?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "It will also delete all the demo sites under it."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Incomplete"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Demo URL"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Dashboard"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Details"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The user will loose access immediately."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Demo Sites"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Refresh Sandbox List"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Refresh"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Instance"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "User IP"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Created"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Expires"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Last Hit"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No sandbox found"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Concurrency Limit"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Delete after inactivity of"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Minute"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Hour"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Role to create a user with (if need)"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Applicable for new demo sites only"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Auto login to the user"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Enable"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Demo Site Settings"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Save Settings"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "completed"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Search.."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "See full view"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "See short view"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Upload failed: %s exceeds %sMB limit."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Replace File"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Browse"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "or, Just drop another"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "or, Just drop it here"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Delete"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Edit"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add child"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Visit"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add New"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Untitled"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Loading Document"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Failed to open PDF."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Download Instead."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Done"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Try Again"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Dismiss"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Unit\\Flat"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Street Address"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "City"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Province"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Postal/Zip Code"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select Country"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Pending payment"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Processing"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "On hold"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Completed"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Cancelled"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Refunded"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Failed"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Monday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Tuesday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Wednesday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Thursday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Friday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Saturday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sunday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Published"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Draft"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Archived"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Expired"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "PDF"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "DOC"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "DOCX"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "JPG"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "JPEG"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "PNG"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "MP3"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "WAV"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "MP4"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "MOV"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ZIP"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "RAR"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "12 Hours"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "24 Hours"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "0"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "1"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "2"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "3"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "4"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "5"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "6"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "7"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "8"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "9"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "End time must be later than start time"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Date"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Time"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "January"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "February"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "March"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "April"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "May"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "June"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "July"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "August"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "September"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "October"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "November"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "December"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Copied to clipboard"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Error copying to clipboard"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Remote"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s year later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s years later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s month later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s months later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s week later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s weeks later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s day later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s days later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s hour later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s hours later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s minute later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s minutes later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Less than a minute later"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s year ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s years ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s month ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s months ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s week ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s weeks ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s day ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s days ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s hour ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s hours ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s minute ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s minutes ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s second ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s seconds ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No result!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add "%s""
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Looks like the JS script is loaded as part of a combined file. Please disable combining them and load from plugin folder directly."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "File size must be less than %s"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Total size must be less than %s"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Facebook"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Linkedin"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Twitter"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Reddit"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Share"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Copy"
+msgstr ""
